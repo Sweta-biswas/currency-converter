@@ -1,2 +1,2 @@
 # currency-converter
-Currency Converter
+I made a Currency Converter webpage using HTML, CSS & JavaScript.
