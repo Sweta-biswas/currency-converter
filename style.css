@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('currency.jpeg'); 
+    background-size: cover ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(114,68,52,255);
+    width: 80%;
+    height: 400px;
+    max-width: 400px;
+    transition: width 1s ease;
+    background-image:   linear-gradient(rgb(17, 79, 137),#f2f2f2);
+    
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e6ebf1;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+.input-box:hover {
+    transform: scale(1.05);
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7c96fe;
+    border-radius: 5px;
+}
+#from_amount {
+    width:95%;
+}
+
+.currency {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.currency .box {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.currency .box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7c96fe;
+    border-radius: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+.convert {
+    background-color: #0255ad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+
+.convert:hover {
+    background-color: #0056b3;
+}
+
+.result, .error {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+
+@keyframes slide-in {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.expanded {
+    background-color: #007bff;
+    animation-name: slide-in;
+    animation-duration: 1s;
+}
+
+.collapsed {
+    background-color: #f2f2f2;
+    transform: translateY(-100%);
+}
+.message-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #7c96fe;
+
+}
+.refresh-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.refresh-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 2em; 
+}
+
+.refresh-btn:hover {
+    color: #0056b3;
+}
